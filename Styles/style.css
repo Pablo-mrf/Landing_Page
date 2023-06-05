@@ -204,7 +204,6 @@ button:hover{
     flex-direction: row;
     align-self: center;
     font-family: system-ui;
-    text-decoration: none;
     font-size: 18px;
     color:rgb(105, 131, 218);
     padding: 5px;
@@ -215,6 +214,7 @@ button:hover{
     margin: 12px;
 }
 .footer_c ul li a{
+    text-decoration: none;
     flex-direction: row;
     color:rgb(63, 143, 139);
     font-family: fantasy;
