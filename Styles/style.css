@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(-75deg, #050c1b, #1d3c5f, #050c1b);
+    background-color: rgb(7, 6, 53);
+    color: white;
+    font-family: Verdana;
+    min-height: 100vh;
+}
+header{
+    border-bottom: 0.3px solid;
+    color: #ffffff;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+}
+footer{
+    background-color: #000b0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 0.5px solid;
+}
+
+#logo_p{
+    font-family: Venus Plant;
+    color: #ffffff;
+}
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    background-color: #000b0f;
+}
+
+.logo{
+    width: 120px;
+}
+.logo img{
+    width: 80px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    transition: 0.8s;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    line-height: 40px;
+    color: rgb(255, 217, 0);
+}
+.menu ul li a:hover{
+    background-color: rgb(155, 228, 228);
+    color: #ff0000;
+    transition: is all;
+}
+.menuicon{
+    display: none;
+    cursor: pointer;
+}
+.menuicon img{
+    width: 80px;
+    filter: invert(1);
+}
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.tela h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+    line-height: 60px;
+}
+.tela h2{
+    text-align: left;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+#envio{
+    text-align: left;
+    font-size: 16px;
+}
+#nome{
+    margin-top: 1px;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+#email{
+    margin-top: 1px;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+button{
+    align-self: center;
+    font-size: 20px;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 50%;
+}
+button:hover{
+    background-color: rgb(255, 217, 0);
+    transition: 0.3s;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(4, 14, 8, 0.644);
+    color: rgb(116, 150, 255);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.section1 div{
+    color: rgb(166, 185, 175);
+    max-width: 340px;
+    line-height: 23px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.section1 div h1{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.section1 div h2{
+    text-align: justify;
+    font-size: 17px;
+}
+#s1pp{
+    font-weight: bold;
+    color: rgb(255, 238, 80);
+}
+#s1pp:hover{
+    color: rgb(0, 255, 136);
+    transition: 0.7s;
+}
+
+.section2{
+    justify-content: space-around;
+    font-family: verdana;
+    line-height: 25px;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section2 div{
+    flex-direction: column;
+}
+.section2 h2{
+    text-align: justify;
+    font-size: 15px;
+}
+.section2 iframe{
+    border: 3px solid;
+    color:rgb(4, 14, 8);
+}
+.section2 ul li{
+    display: inline-block;
+}
+.s2d2 ul li img, h2{
+    display: inline-block;
+}
+#s2h21{
+    max-width: 370px;
+}
+#s2h22{
+    max-width: 170px;
+    align-self: flex-start;
+}
+.section2 ul li img{
+    width: 160px;
+    margin-left: 35px;
+}
+
+.footer_c{
+    margin: 20px;
+    flex-direction: row;
+    align-self: center;
+    font-family: system-ui;
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(105, 131, 218);
+    padding: 5px;
+}
+.footer_c ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 12px;
+}
+.footer_c ul li a{
+    flex-direction: row;
+    color:rgb(63, 143, 139);
+    font-family: fantasy;
+}
+.footer_c a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.footer_c ul li img{
+    width: 50px;
+    margin: 10px;
+}
+.f{
+    font-size: 12px;
+    margin: 20px;
+    align-self: center;
+}

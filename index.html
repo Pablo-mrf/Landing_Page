@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Styles/style.css" rel="stylesheet">
+    <link href="./Styles/media.css" rel="stylesheet">
+    <link href="./Styles/font.css" rel="stylesheet">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./misc/images/logo.png" alt="Logomarca">
+                <p id="logo_p">Roadbus Contakt</p>
+            </div>
+
+            <div class="menuicon" onclick="abrimenu()">
+                <img src="./misc/images/icon.png" alt="ícone">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Avaliações</a></li>
+                    <li><a href="#"><strong>Fazer Login</strong></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <script>
+            var icon = document.querySelector('nav ul');
+            var menuicon = document.querySelector('.menuicon');
+
+            function abrimenu(){
+                icon.classList.toggle('open');
+            }
+        </script>
+    </header>
+
+    <main>
+        <div class="tela">
+            <h1>Pretende viajar mas não sabe para onde ir?</h1>
+            <h2>Aqui na <strong>Roadbus</strong> você encontra os melhores destinos para sua viagem. 
+                Preencha os dados e cadastre-se agora para receber nossas novidades:</h2>
+            <p id="envio">Nome e Sobrenome</p>
+            <input id="nome" type="text" value="">
+            <p id="envio">Seu e-mail</p>
+            <input id="email" type="text" value="">
+            <button>Confirmar</button>
+        </div>
+
+        <img id="Bus" src="./misc/images/onibus.png" alt="ônibus">
+    </main>
+
+    <section class="section1">
+        <div>
+            <h1>Nossa Firma</h1>
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley, It has roots in a piece of classical 
+                Latin literature from 45 BC, making it over 2000 years old using more-or-less do passageiro.</h2>
+        </div>
+
+        <div>
+            <h1>Atendimento</h1>
+            <h2>It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                distribution of letters, the industry's standard dunas texto ever since the 1500s, 
+                when an unknown printer took transporte de malas e bolsas.</h2>
+        </div>
+
+        <div>
+            <h1>Segurança</h1>
+            <h2>Contrary to popular belief, usados por alunos na escola, bem como por desenvol vê dores de 
+                serviços para criar e hospeda is not simply random text. It has roots in a piece 
+                of classical Latin literature from some college when they are looking for researches ou para mais 
+                informações acesse nossa <a href="https://privacy.microsoft.com/pt-br/privacystatement" id="s1pp">
+                <strong>Política de Privacidade.</strong></a></h2>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="s2d1">
+            <ul>
+                <li>
+                    <h5><em>Vídeo postado em 11 de Dezembro de 2008</em></h5>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pUbyAz_vpro" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    frameborder="0" title="YouTube video player" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div>
+        <div class="s2d2">
+            <ul>
+                <li>
+                    <h2 id="s2h21">It is a long established fact that a reader will be distracted by the readable 
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                        that it has a more-or-less normal distribuição de bagagens.</h2>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h2 id="s2h22">This defines the default size of an element before the remaining space 
+                        is distributed. It can be a length 20%, 5rem, or maybe a horário seguro.</h2>
+                    <img src="./misc/images/relogio.png" alt="Relógio">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_c">
+            <ul>
+                <li>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img src="./misc/images/WhatsApp.png" alt="Whatsapp">
+                        <p>(81)9-8623-8562</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./misc/images/Facebook.png" alt="Facebook">
+                        <p>RoadBus Contakt</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/" target="_blank">
+                        <img src="./misc/images/instagram.png" alt="Instagram">
+                        <p>@RoadbusContakt</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="f">
+            <p><em>Todos os direitos reservados Pablo Montiel ©</em></p>
+        </div>
+    </footer>
+</body>
+</html>

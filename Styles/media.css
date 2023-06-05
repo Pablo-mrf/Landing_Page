@@ -1,0 +1,75 @@
+@media(max-width: 1080px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .section1 div{
+        max-width: 200px;
+        justify-self: center;
+    }
+
+    .section2{
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+
+    }
+    .s2d2{
+        margin-top: 40px;
+    }
+    .s2d2 #s2h21, #s2h22{
+        text-align: justify;
+    }
+    .s2d1 iframe{
+        max-width: 90%;
+        align-self: center;
+    }
+
+}
+
+
+@media(max-width: 904px){
+    main{
+        flex-direction: column;
+
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    .menuicon{
+        display: block;
+        z-index: 10;
+    }
+    nav ul{
+        top: 0;
+        right: 0;
+        width: 55%;
+        height: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background-color: rgba(19, 41, 41, 0.801);
+    }
+    nav ul.open{
+        transform: translateX(0);
+    }
+    nav ul li{
+        margin: 10px;
+    }
+    nav ul li a{
+        font-size: 1.5rem;
+    }
+
+    .section1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 div{
+        max-width: 80%;
+    }
+}
